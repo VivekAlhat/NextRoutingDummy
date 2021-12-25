@@ -1,0 +1,41 @@
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 1rem;
+  border: 1px solid gray;
+  padding: 1rem;
+}
+
+#userImage {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.mainContainer {
+  height: 90vh;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userInfo {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 3rem;
+}
+
+.userLocation {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+}
+
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,39 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 400px;
+  border: 1px solid lightgray;
+}
+
+.dataContainer {
+  padding: 1rem;
+}
+
+.tagsContainer,
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flex {
+  justify-content: space-between;
+}
+
+.count {
+  font-size: 14px;
+  font-weight: 500;
+  color: #808080;
+}
+
+.tag {
+  font-size: 14px;
+  background-color: purple;
+  color: white;
+  padding: 3px 10px;
+}
+
+.username {
+  cursor: pointer;
+}

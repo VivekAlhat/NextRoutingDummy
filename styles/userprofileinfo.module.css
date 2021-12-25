@@ -1,0 +1,13 @@
+.userContainer {
+  border: 1px solid lightgray;
+  margin: 1rem;
+}
+
+.userInfo {
+  padding: 1rem;
+}
+
+.userName {
+  cursor: pointer;
+  font-size: 1.2rem;
+}

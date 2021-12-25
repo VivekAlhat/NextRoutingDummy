@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eef2ff;
+  padding: 0 1rem;
+  box-shadow: 3px 3px 3px #f8f8f8;
+  border-bottom: 1px solid lightgray;
+  height: 50px;
+}
+
+.navHeader {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
